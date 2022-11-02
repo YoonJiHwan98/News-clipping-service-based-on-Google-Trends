@@ -1,4 +1,5 @@
-# 구글 트렌드 기반의 뉴스 클리핑 서비스 (News clipping service based on Google Trends)
+# 구글 트렌드 기반의 뉴스 클리핑 서비스 
+# (News clipping service based on Google Trends)
 
 기술은 크게 세 가지로 웹 크롤링, 토픽 모델링, 자동화 서비스입니다. 
 
