@@ -19,6 +19,6 @@ About the Project
    3. Automatic Serivce: Google Trends words and extracted keywords are sent every morning through KakaoTalk messages.
 
 **Target Development Language**:
-   -Python
-   -Git
-   -Github
+   - Python
+   - Git
+   - Github
