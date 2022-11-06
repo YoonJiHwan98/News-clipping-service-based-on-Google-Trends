@@ -3,14 +3,18 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to News Clipping Service based on Google Trends's documentation! test
+Welcome to News Clipping Service based on Google Trends's documentation!
 ========================================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: 소개::
+   :maxdepth: 3
+   :caption: content::
 
-   modules
+   About_the_project
+
+   Getting_Started_Installation
+
+   How_to_use
 
 
 Indices and tables

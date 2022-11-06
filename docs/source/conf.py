@@ -16,12 +16,6 @@ import sys
 sys.path.insert(0, os.path.abspath('../../src'))
 
 
-from recommonmark.parser import CommonMarkParser
-
-source_parsers = {
-    '.md' : CommonMarkParser
-}
-
 # -- Project information -----------------------------------------------------
 
 project = 'News Clipping Service based on Google Trends'
@@ -51,14 +45,19 @@ extensions = [
     'sphinx.ext.imgmath',
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
-    'sphinx.ext.githubpages'
+    'sphinx.ext.githubpages',
+    'myst_parser'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
-source_suffix = ['.rst', '.md']
+source_suffix = {'.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown'
+                 }
+
 master_doc = 'index'
-language = None
+language = 'en'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -71,6 +70,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+
 html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
