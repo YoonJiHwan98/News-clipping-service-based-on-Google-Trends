@@ -7,9 +7,14 @@ Welcome to News Clipping Service based on Google Trends's documentation!
 ========================================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   :maxdepth: 3
+   :caption: content::
 
+   About_the_project
+
+   Getting_Started_Installation
+
+   How_to_use
 
 
 Indices and tables
