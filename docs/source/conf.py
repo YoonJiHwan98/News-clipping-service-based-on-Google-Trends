@@ -31,9 +31,6 @@ release = '0.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-<<<<<<< HEAD
-extensions = []
-=======
 extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.doctest',
@@ -51,7 +48,6 @@ extensions = [
     'sphinx.ext.githubpages',
     'myst_parser'
 ]
->>>>>>> a1052ef55ec353e889d7e7591fbae2bb024c43e4
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
