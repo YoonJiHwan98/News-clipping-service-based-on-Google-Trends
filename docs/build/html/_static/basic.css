@@ -608,6 +608,11 @@ ol.simple p,
 ul.simple p {
     margin-bottom: 0;
 }
+<<<<<<< HEAD
+=======
+
+/* Docutils 0.17 and older (footnotes & citations) */
+>>>>>>> a1052ef55ec353e889d7e7591fbae2bb024c43e4
 dl.footnote > dt,
 dl.citation > dt {
     float: left;
@@ -624,6 +629,33 @@ dl.citation > dd:after {
     content: "";
     clear: both;
 }
+
+/* Docutils 0.18+ (footnotes & citations) */
+aside.footnote > span,
+div.citation > span {
+    float: left;
+}
+aside.footnote > span:last-of-type,
+div.citation > span:last-of-type {
+  padding-right: 0.5em;
+}
+aside.footnote > p {
+  margin-left: 2em;
+}
+div.citation > p {
+  margin-left: 4em;
+}
+aside.footnote > p:last-of-type,
+div.citation > p:last-of-type {
+    margin-bottom: 0em;
+}
+aside.footnote > p:last-of-type:after,
+div.citation > p:last-of-type:after {
+    content: "";
+    clear: both;
+}
+
+/* Footnotes & citations ends */
 
 dl.field-list {
     display: grid;

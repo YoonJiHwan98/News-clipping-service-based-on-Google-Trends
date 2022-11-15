@@ -88,7 +88,11 @@ const _displayItem = (item, highlightTerms, searchTerms) => {
   linkEl.href = linkUrl + "?" + params.toString() + anchor;
   linkEl.innerHTML = title;
   if (descr)
+<<<<<<< HEAD
     listItem.appendChild(document.createElement("span")).innerHTML =
+=======
+    listItem.appendChild(document.createElement("span")).innerText =
+>>>>>>> a1052ef55ec353e889d7e7591fbae2bb024c43e4
       " (" + descr + ")";
   else if (showSearchSummary)
     fetch(requestUrl)
@@ -155,8 +159,15 @@ const Search = {
   _pulse_status: -1,
 
   htmlToText: (htmlString) => {
+<<<<<<< HEAD
     const htmlElement = new DOMParser().parseFromString(htmlString, 'text/html');
     htmlElement.querySelectorAll(".headerlink").forEach((el) => { el.remove() });
+=======
+    const htmlElement = document
+      .createRange()
+      .createContextualFragment(htmlString);
+    _removeChildren(htmlElement.querySelectorAll(".headerlink"));
+>>>>>>> a1052ef55ec353e889d7e7591fbae2bb024c43e4
     const docContent = htmlElement.querySelector('[role="main"]');
     if (docContent !== undefined) return docContent.textContent;
     console.warn(
@@ -502,12 +513,20 @@ const Search = {
    * latter for highlighting it.
    */
   makeSearchSummary: (htmlText, keywords, highlightWords) => {
+<<<<<<< HEAD
     const text = Search.htmlToText(htmlText);
     if (text === "") return null;
 
     const textLower = text.toLowerCase();
     const actualStartPosition = [...keywords]
       .map((k) => textLower.indexOf(k.toLowerCase()))
+=======
+    const text = Search.htmlToText(htmlText).toLowerCase();
+    if (text === "") return null;
+
+    const actualStartPosition = [...keywords]
+      .map((k) => text.indexOf(k.toLowerCase()))
+>>>>>>> a1052ef55ec353e889d7e7591fbae2bb024c43e4
       .filter((i) => i > -1)
       .slice(-1)[0];
     const startWithContext = Math.max(actualStartPosition - 120, 0);
@@ -515,9 +534,15 @@ const Search = {
     const top = startWithContext === 0 ? "" : "...";
     const tail = startWithContext + 240 < text.length ? "..." : "";
 
+<<<<<<< HEAD
     let summary = document.createElement("p");
     summary.classList.add("context");
     summary.textContent = top + text.substr(startWithContext, 240).trim() + tail;
+=======
+    let summary = document.createElement("div");
+    summary.classList.add("context");
+    summary.innerText = top + text.substr(startWithContext, 240).trim() + tail;
+>>>>>>> a1052ef55ec353e889d7e7591fbae2bb024c43e4
 
     highlightWords.forEach((highlightWord) =>
       _highlightText(summary, highlightWord, "highlighted")
