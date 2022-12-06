@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "2022-12-06 오늘의 키워드"
+categories: jekyll update
+---
+
+# 오늘의 구글 키워드
+
+ 오늘의 구글 트렌드 순위는
+
+1. **최태원**
+
+![최태원 WordCloud](C:/Users/yoon9/Documents/GitHub/News-clipping-service-based-on-Google-Trends/src/WordCloud image/wordcloud_1.png){:class="img-responsive"}
+
+
+2. **이승기**
+
