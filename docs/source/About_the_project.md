@@ -7,7 +7,6 @@
 
    Let's live by grasping trends every morning.
 
-
 ## **Features List**:
 
 *There are three major technologies:*
@@ -19,7 +18,6 @@
 ## **Project Member**:
 - Yoon Jihwan (leader)
 - 
-
 
 ## **Target Development Language**:
    -Python
