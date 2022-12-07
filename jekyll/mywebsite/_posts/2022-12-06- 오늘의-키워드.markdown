@@ -4,17 +4,23 @@ title:  "2022-12-06 오늘의 키워드"
 categories: jekyll update
 ---
 
-# 오늘의 구글 키워드 순위
-
 
 ## 1. **최태원**
-![워드 클라우드](C:\Users\yoon9\Documents\GitHub\News-clipping-service-based-on-Google-Trends\jekyll\mywebsite\assets\img\wordcloud_1.png)
 
-2. **이승기**
+![워드클라우드](http://127.0.0.1:4000/assets/img/wordcloud_1.png)
 
-3. **이영희 삼성전자**
+## 2. **이승기**
 
-4. **윤여정**
+![워드클라우드](http://127.0.0.1:4000/assets/img/2012-12-06/wordcloud_이승기.png)
 
-5. **이상민**
+## 3. **이영희 삼성전자**
 
+![워드클라우드](http://127.0.0.1:4000/assets/img/2012-12-06/wordcloud_이영희 삼성전자.png)
+
+## 4. **윤여정**
+
+![워드클라우드](http://127.0.0.1:4000/assets/img/2012-12-06/wordcloud_윤여정.png)
+
+## 5. **이상민**
+
+![워드클라우드](http://127.0.0.1:4000/assets/img/2012-12-06/wordcloud_이상민.png)
