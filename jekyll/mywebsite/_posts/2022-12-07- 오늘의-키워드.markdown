@@ -1,0 +1,26 @@
+---
+layout: post
+title:  "2022-12-07 오늘의 키워드"
+categories: jekyll update
+---
+
+
+## 1. **김장**
+
+![워드클라우드](http://127.0.0.1:4000/assets/img/2022-12-07/wordcloud_김장.png)
+
+## 2. **모로코**
+
+![워드클라우드](http://127.0.0.1:4000/assets/img/2022-12-07/wordcloud_모로코.png)
+
+## 3. **이낙연**
+
+![워드클라우드](http://127.0.0.1:4000/assets/img/2022-12-07/wordcloud_이낙연.png)
+
+## 4. **최태원**
+
+![워드클라우드](http://127.0.0.1:4000/assets/img/2022-12-07/wordcloud_최태원.png)
+
+## 5. **크로아티아**
+
+![워드클라우드](http://127.0.0.1:4000/assets/img/2022-12-07/wordcloud_크로아티아.png)
