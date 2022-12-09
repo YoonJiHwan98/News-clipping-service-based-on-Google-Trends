@@ -16,11 +16,10 @@ There are three major technologies: web crawling, topic modeling, and automation
 3. Google Trends words and extracted keywords are sent every morning through KakaoTalk messages.
 
 ## Sevice Example
-1. 월드컵
+###1. 월드컵
 ![wordcloud_월드컵](https://user-images.githubusercontent.com/80117196/206650921-f208cb0e-9a03-4979-a482-d2e48c53b323.png)
 
 ## Project Page
-
 https://sohnsong.github.io/
 
 Our Jekyll homepage was made by another Repo. If you want to see the code for making Jekyll, go to the link below.
