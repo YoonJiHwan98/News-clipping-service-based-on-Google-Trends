@@ -1,6 +1,7 @@
 # 구글 트렌드 기반의 뉴스 클리핑 서비스 
 # (News clipping service based on Google Trends)
 
+## Project Intro
 
 기술은 크게 세 가지로 웹 크롤링, 토픽 모델링, 자동화 서비스입니다. 
 
@@ -13,5 +14,15 @@ There are three major technologies: web crawling, topic modeling, and automation
 1. We collect data by crawling Google Trends and Naver News every morning.
 2. Keywords are extracted from the collected data through Frequency Analysis.
 3. Google Trends words and extracted keywords are sent every morning through KakaoTalk messages.
+
+## Project Page
+
+
+
+
+
+## Project Document
+
+https://yoonjihwan98.github.io/News-clipping-service-based-on-Google-Trends/
 
 
